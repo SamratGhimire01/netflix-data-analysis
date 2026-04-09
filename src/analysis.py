@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-from loader import load_data
+from src.loader import load_data
 
 
 data = load_data()
