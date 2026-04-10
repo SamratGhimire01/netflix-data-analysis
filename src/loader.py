@@ -9,5 +9,5 @@ def load_data():
         try:
             df = pd.read_csv(netflix_cleaned)
         except Exception as e:
-            raise f"Error Loading Data: {e}"
+            raise RuntimeError(f"Error Loading Data: {e}")from e
         return df
