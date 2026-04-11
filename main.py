@@ -10,3 +10,5 @@ def home():
 
 app.include_router(router)
 app.include_router(summary_router)
+
+# To run the app, use the command: uvicorn main:app --reload
